@@ -71,7 +71,7 @@
             </div>
         </section>
         <ul class="header-main-menu">
-            <li class="header-main-menu-item"><a href="#">Finance Home</a></li>
+            <li class="header-main-menu-item"><a href="home.html">Finance Home</a></li>
             <li class="header-main-menu-item"><a href="#">Watchlists</a></li>
             <li class="header-main-menu-item"><a href="#">My Portfolio</a></li>
             <li class="header-main-menu-item"><a href="#">My Screeners</a></li>
@@ -93,9 +93,8 @@
                    </div>
                </div>
             </div>
-            <p class="market-status">US Markets are closed</p>
+            <p id="market-status"></p>
             <div>
-                <!--<div style="width: calc(100% - 260px);">-->
                 <div>
                 <section>
                         <div class="stock-chart-section d-inline-block">
@@ -217,7 +216,7 @@
                             <div class="watchlist-portfolios-section-inner">
                                 <ul>
                                     <li class="my-portfolios">
-                                        <a href="#">My Portfolios</a>
+                                        <a href="#"><h1>My Portfolios</h1></a>
                                     </li>
                                     <li class="my-watchlist" >
                                         <a href="#">My Watchlist</a>
@@ -378,32 +377,6 @@
                             <col style="width: 91px">
                             <col style="width: 70px">
                         </colgroup>
-                        <!--<thead>-->
-                            <!--<tr>-->
-                                <!--<th>-->
-                                    <!--<span>-->
-                                        <!--<label>-->
-                                            <!--<input type="checkbox" name="rowToggle" value="on">-->
-                                            <!--<i></i>-->
-                                        <!--</label>-->
-                                        <!--Symbol-->
-                                    <!--</span>-->
-                                <!--</th>-->
-                                <!--<th style="font-weight: 700">Last Price</th>-->
-                                <!--<th style="font-weight: 700">Change</th>-->
-                                <!--<th style="font-weight: 700">% Chg</th>-->
-                                <!--<th style="text-align: left">Currency</th>-->
-                                <!--<th>Market Time</th>-->
-                                <!--<th>Volume</th>-->
-                                <!--<th>Shares</th>-->
-                                <!--<th>Avg Vol (3m)</th>-->
-                                <!--<th style="text-align: left">Day Range</th>-->
-                                <!--<th style="text-align: left">52-Wk Range</th>-->
-                                <!--<th style="text-align: left">Day Chart</th>-->
-                                <!--<th>Market Cap</th>-->
-
-                            <!--</tr>-->
-                        <!--</thead>-->
                         <tbody class="table-body">
                         <tr data-index="0" data-key="GOOG" data-test-key="GOOG">
                             <td class="td-symbol">
@@ -1068,12 +1041,14 @@
                     </table>
                 </div>
             </section>
+            <div class="col-md-12" style="height: 100px;">
+                
+            </div>
         </section>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/custom.js"></script>
-
 </body>
 </html>

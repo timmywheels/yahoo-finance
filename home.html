@@ -10,20 +10,18 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="icon" href="https://s.yimg.com/os/mit/media/p/common/images/favicon_new-7483e38.svg" sizes="any">
     <link rel="alternate icon" href="https://finance.yahoo.com/favicon.ico?bypass=true" type="image/x-icon">
-            <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/custom.min.js"></script>
+  
 </head>
 <div class="topbar">
 
 </div>
 
-<body>
-<header>
+<body class="body-section">
+<header class="main-header">
     <ul class="topbar">
         <li class="topbar-menu-item"><a href="#"><span class="header-mail-btn">
-                    <svg width="16px" height="16px" viewBox="0 0 32 32" style="fill: white;">
-                        <path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
+                    <svg class="svg" width="16px" height="16px" viewBox="0 0 32 32" style="fill: white;">
+                        <path class="path" d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
                     </svg>
                 </span>Home</a></li>
         <li class="topbar-menu-item">Mail</li>
@@ -42,12 +40,12 @@
     <section class="bottombar">
         <div class="header-left">
             <div class="header-logo">
-                <a href="/yahoo-finance">
+                <a class="link" href="/">
                     <img class="logo" src="img/yahoo.svg" alt="">
                 </a>
             </div>
             <form class="header-form" action="">
-                <div>
+                <div class="div">
                     <div class="header-form-icon">
                         <input class="header-input" type="text" value autocomplete="off" placeholder="Search for news, symbols and companies">
                     </div>
@@ -56,18 +54,18 @@
             <button class="header-form-btn">Search</button>
         </div>
         <div class="header-right">
-                <span>
+                <span class="span">
                     <span class="header-user-btn">
                         <img class="header-profile-img" src="img/profile-img.jpg" alt="Profile Image">Tim
                     </span>
                 </span>
             <span class="header-alert-btn">
-                    <svg width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 35px">
-                        <path d="M294.2 428.05h-74.4c0 20.543 16.656 37.2 37.2 37.2 20.535 0 37.2-12.47 37.2-37.2zM136.1 195.55c0 62.284-53.51 94.162-55.728 95.452L71 296.352v94.498h372v-94.498l-9.373-5.35c-.562-.318-55.727-32.573-55.727-95.452 0-63.88-12.533-148.8-120.9-148.8-108.368 0-120.9 84.92-120.9 148.8z"></path>
+                    <svg class="svg" width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 35px">
+                        <path class="path" d="M294.2 428.05h-74.4c0 20.543 16.656 37.2 37.2 37.2 20.535 0 37.2-12.47 37.2-37.2zM136.1 195.55c0 62.284-53.51 94.162-55.728 95.452L71 296.352v94.498h372v-94.498l-9.373-5.35c-.562-.318-55.727-32.573-55.727-95.452 0-63.88-12.533-148.8-120.9-148.8-108.368 0-120.9 84.92-120.9 148.8z"></path>
                     </svg>
                 </span>
             <span class="header-mail-btn">
-                    <svg width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 50px">
+                    <svg class="svg" width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 50px">
                         <path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
                     </svg>
                 </span>
@@ -76,7 +74,7 @@
     <ul class="header-main-menu">
         <li class="header-main-menu-item"><a href="#">Finance Home</a></li>
         <li class="header-main-menu-item"><a href="#">Watchlists</a></li>
-        <li class="header-main-menu-item"><a href="#">My Portfolio</a></li>
+        <li class="header-main-menu-item"><a href="index.html">My Portfolio</a></li>
         <li class="header-main-menu-item"><a href="#">My Screeners</a></li>
         <li class="header-main-menu-item"><a href="#">Markets</a></li>
         <li class="header-main-menu-item"><a href="#">Industries</a></li>
@@ -88,19 +86,18 @@
     </ul>
 </header>
 <div class="market-summary">
-    <section>
-        <div style="margin-bottom: 8px; padding-top: 12px; text-align: center; display: block;">
-            <div>
-                <div>
+    <section class="section">
+        <div class="div" style="margin-bottom: 8px; padding-top: 12px; text-align: center; display: block;">
+            <div class="div">
+                <div class="div">
 
                 </div>
             </div>
         </div>
-        <p class="market-status">US Markets are closed</p>
-        <div>
-            <!--<div style="width: calc(100% - 260px);">-->
-            <div>
-                <section>
+        <p id="market-status"></p>
+        <div class="div">
+            <div class="div">
+                <section class="section">
                     <div class="stock-chart-section d-inline-block">
                         <ul class="d-inline-block">
                             <li id="stock-box-1" class="stock-box">
@@ -109,9 +106,8 @@
                                     <span class="stock-price">2,640.87</span>
                                     <span class="stock-change">+35.87 (+1.38%)</span>
                                 </p>
-                                <a href="#">
+                                <a class="link" href="#">
                                     <canvas class="stock-chart-1" style="width: 70px; height: 25px;" width="70" height="25">
-
                                     </canvas>
                                 </a>
                             </li>
@@ -214,7 +210,10 @@
                             <!--<div class="col-md-8">-->
                                 <!--<img class="home-hero-img" src="img/ad-6.png" alt="">-->
                             <!--</div>-->
-                            <div id="carouselExampleIndicators" class="carousel slide col-md-8" data-ride="carousel">
+                            <div class="col-md-12">
+                                <h1 class="welcome">Welcome Back, Tim!</h1>
+                            </div>       
+                            <div id="carousel" class="carousel slide col-md-8" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#carousel" data-slide-to="1"></li>
@@ -524,5 +523,10 @@
     </section>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
+
 </html>
