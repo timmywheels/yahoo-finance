@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yahoo Finance - Business Finance, Stock Market, Quotes, News</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="https://s.yimg.com/os/mit/media/p/common/images/favicon_new-7483e38.svg" sizes="any">
+    <link rel="alternate icon" href="https://finance.yahoo.com/favicon.ico?bypass=true" type="image/x-icon">
+            <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/custom.min.js"></script>
+</head>
+<div class="topbar">
+
+</div>
+
+<body>
+<header>
+    <ul class="topbar">
+        <li class="topbar-menu-item"><a href="#"><span class="header-mail-btn">
+                    <svg width="16px" height="16px" viewBox="0 0 32 32" style="fill: white;">
+                        <path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
+                    </svg>
+                </span>Home</a></li>
+        <li class="topbar-menu-item">Mail</li>
+        <li class="topbar-menu-item">Flickr</li>
+        <li class="topbar-menu-item">Tumblr</li>
+        <li class="topbar-menu-item">News</li>
+        <li class="topbar-menu-item">Sports</li>
+        <li class="topbar-menu-item">Finance</li>
+        <li class="topbar-menu-item">Entertainment</li>
+        <li class="topbar-menu-item">Lifestyle</li>
+        <li class="topbar-menu-item">Answers</li>
+        <li class="topbar-menu-item">Groups</li>
+        <li class="topbar-menu-item">More</li>
+
+    </ul>
+    <section class="bottombar">
+        <div class="header-left">
+            <div class="header-logo">
+                <a href="/yahoo-finance">
+                    <img class="logo" src="img/yahoo.svg" alt="">
+                </a>
+            </div>
+            <form class="header-form" action="">
+                <div>
+                    <div class="header-form-icon">
+                        <input class="header-input" type="text" value autocomplete="off" placeholder="Search for news, symbols and companies">
+                    </div>
+                </div>
+            </form>
+            <button class="header-form-btn">Search</button>
+        </div>
+        <div class="header-right">
+                <span>
+                    <span class="header-user-btn">
+                        <img class="header-profile-img" src="img/profile-img.jpg" alt="Profile Image">Tim
+                    </span>
+                </span>
+            <span class="header-alert-btn">
+                    <svg width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 35px">
+                        <path d="M294.2 428.05h-74.4c0 20.543 16.656 37.2 37.2 37.2 20.535 0 37.2-12.47 37.2-37.2zM136.1 195.55c0 62.284-53.51 94.162-55.728 95.452L71 296.352v94.498h372v-94.498l-9.373-5.35c-.562-.318-55.727-32.573-55.727-95.452 0-63.88-12.533-148.8-120.9-148.8-108.368 0-120.9 84.92-120.9 148.8z"></path>
+                    </svg>
+                </span>
+            <span class="header-mail-btn">
+                    <svg width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 50px">
+                        <path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
+                    </svg>
+                </span>
+        </div>
+    </section>
+    <ul class="header-main-menu">
+        <li class="header-main-menu-item"><a href="#">Finance Home</a></li>
+        <li class="header-main-menu-item"><a href="#">Watchlists</a></li>
+        <li class="header-main-menu-item"><a href="#">My Portfolio</a></li>
+        <li class="header-main-menu-item"><a href="#">My Screeners</a></li>
+        <li class="header-main-menu-item"><a href="#">Markets</a></li>
+        <li class="header-main-menu-item"><a href="#">Industries</a></li>
+        <li class="header-main-menu-item"><a href="#">Personal Finance</a></li>
+        <li class="header-main-menu-item"><a href="#">Technology</a></li>
+        <li class="header-main-menu-item"><a href="#">Originals</a></li>
+        <li class="header-main-menu-item"><a href="#">Events</a></li>
+
+    </ul>
+</header>
+<div class="market-summary">
+    <section>
+        <div style="margin-bottom: 8px; padding-top: 12px; text-align: center; display: block;">
+            <div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <p class="market-status">US Markets are closed</p>
+        <div>
+            <!--<div style="width: calc(100% - 260px);">-->
+            <div>
+                <section>
+                    <div class="stock-chart-section d-inline-block">
+                        <ul class="d-inline-block">
+                            <li id="stock-box-1" class="stock-box">
+                                <p class="stock-info">
+                                    <a class="stock-name" href="#">S&P 500</a>
+                                    <span class="stock-price">2,640.87</span>
+                                    <span class="stock-change">+35.87 (+1.38%)</span>
+                                </p>
+                                <a href="#">
+                                    <canvas class="stock-chart-1" style="width: 70px; height: 25px;" width="70" height="25">
+
+                                    </canvas>
+                                </a>
+                            </li>
+                            <li id="stock-box-2" class="stock-box">
+                                <p class="stock-info">
+                                    <a class="stock-name" href="#">Dow 30</a>
+                                    <span class="stock-price">24,103.11</span>
+                                    <span class="stock-change">+254.69 (+1.07%)</span>
+                                </p>
+                                <a href="#">
+                                    <canvas class="stock-chart-2" style="width: 70px; height: 25px;" width="70" height="25">
+
+                                    </canvas>
+                                </a>
+                            </li>
+                            <li id="stock-box-3" class="stock-box">
+                                <p class="stock-info">
+                                    <a class="stock-name" href="#">Nasdaq</a>
+                                    <span class="stock-price">7,063.44</span>
+                                    <span class="stock-change">+114.22 (+1.64%)</span>
+                                </p>
+                                <a href="#">
+                                    <canvas class="stock-chart-3" style="width: 70px; height: 25px;" width="70" height="25">
+
+                                    </canvas>
+                                </a>
+                            </li>
+                            <li id="stock-box-4" class="stock-box">
+                                <p class="stock-info">
+                                    <a class="stock-name" href="#">Russell 2000</a>
+                                    <span class="stock-price">1,529.43</span>
+                                    <span class="stock-change">+16.40 (+1.08%)</span>
+                                </p>
+                                <a href="#">
+                                    <canvas class="stock-chart-4" style="width: 70px; height: 25px;" width="70" height="25">
+
+                                    </canvas>
+                                </a>
+                            </li>
+                            <li id="stock-box-5" class="stock-box">
+                                <p class="stock-info">
+                                    <a class="stock-name" href="#">Crude Oil</a>
+                                    <span class="stock-price">65.02</span>
+                                    <span class="stock-change">+0.08 (+0.12%)</span>
+                                </p>
+                                <a href="#">
+                                    <canvas class="stock-chart-5" style="width: 70px; height: 25px;" width="70" height="25">
+
+                                    </canvas>
+                                </a>
+                            </li>
+                            <li id="stock-box-6" class="stock-box">
+                                <p class="stock-info">
+                                    <a class="stock-name" href="#">Gold</a>
+                                    <span class="stock-price">1,329.70</span>
+                                    <span class="stock-change">+2.40 (+0.18%)</span>
+                                </p>
+                                <a href="#">
+                                    <canvas class="stock-chart-6" style="width: 70px; height: 25px;" width="70" height="25">
+
+                                    </canvas>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="arrow-sections d-inline-block">
+                            <button class="arrow-btn left">
+                                <svg width="17" height="17" viewBox="0 0 32 32">
+                                    <path d="M22.72.665c-.886-.887-2.323-.887-3.21 0L4.175 16 19.51 31.335c.442.443 1.023.665 1.604.665s1.162-.222 1.605-.665c.886-.887.886-2.324 0-3.21L10.596 16 22.72 3.876c.887-.887.887-2.324 0-3.21z"></path>
+                                </svg>
+                            </button>
+                            <button class="arrow-btn right">
+                                <svg width="17" height="17" viewBox="0 0 32 32">
+                                    <path d="M7.06.665c.887-.887 2.324-.887 3.21 0L25.606 16 10.27 31.335c-.442.443-1.023.665-1.604.665s-1.162-.222-1.605-.665c-.886-.887-.886-2.324 0-3.21L19.185 16 7.06 3.876c-.887-.887-.887-2.324 0-3.21z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <ul class="ad-section d-inline-block">
+                            <li class="d-inline-block">
+                                <div class="d-inline-block">
+                                    <div style="position: relative; z-index: 9; width: 120px; height: 60px; visibility: inherit; display: inline-block; font-size: 0px;">
+                                        <img class="ad-1" src="img/ad-1.gif" alt="Ad 1" style="position: absolute; z-index: 10; width: 120px; height: 60px; top: 0px; left: 0px; visibility: inherit; display: block;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="d-inline-block">
+                                <div class="d-inline-block">
+                                    <div style="position: relative; z-index: 9; width: 120px; height: 60px; visibility: inherit; display: inline-block; font-size: 0px;">
+                                        <img class="ad-1" src="img/ad-2.jpg" alt="Ad 2" style="position: absolute; z-index: 10; width: 120px; height: 60px; top: 0px; left: 0px; visibility: inherit; display: block;">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!--<div class="col-md-8">-->
+                                <!--<img class="home-hero-img" src="img/ad-6.png" alt="">-->
+                            <!--</div>-->
+                            <div id="carouselExampleIndicators" class="carousel slide col-md-8" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel" data-slide-to="1"></li>
+                                    <li data-target="#carousel" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="img/ad-6.png" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/ad-7.png" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/ad-8.png" alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <div class="col-md-4 home-sidebar">
+                                <table class="main-table">
+                                    <colgroup>
+                                        <col class="sidebar-col" style="width: 25%">
+                                        <col class="sidebar-col" style="width: 25%">
+                                        <col class="sidebar-col" style="width: 25%">
+                                        <col class="sidebar-col" style="width: 25%">
+                                    </colgroup>
+                            </div>
+                        </div>
+                    </div>
+                    <tbody style="margin-left: 30px;" class="table-body">
+                        <tr data-index="0" data-key="GOOG" data-test-key="GOOG">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/GOOG" target="_blank" title="GOOG">GOOG</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        1,007.04
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -20.77
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -2.02%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="AMZN" data-test-key="AMZN">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/AMZN" target="_blank" title="AMZN">AMZN</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        1,405.23
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -46.52
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -3.20%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="AAPL" data-test-key="AAPL">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/AAPL" target="_blank" title="AAPL">AAPL</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        168.38
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -4.42
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -2.56%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="FB" data-test-key="FB">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/FB" target="_blank" title="FB">FB</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        157.20
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -2.14
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -1.34%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="IBM" data-test-key="IBM">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/IBM" target="_blank" title="IBM">IBM</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        150.57
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -2.14
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -1.34%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="NFLX" data-test-key="NFLX">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/NFLX" target="_blank" title="NFLX">NFLX</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        288.85
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -5.12
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -1.74%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="INTC" data-test-key="INTC">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/INTC" target="_blank" title="INTC">INTC</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        48.79
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -1.59
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -3.16%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="TWTR" data-test-key="TWTR">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/TWTR" target="_blank" title="TWTR">TWTR</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        28.10
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -0.54
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -1.89%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="MSFT" data-test-key="MSFT">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/MSFT" target="_blank" title="MSFT">MSFT</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        90.23
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -2.15
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -2.33%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="TSLA" data-test-key="TSLA">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/TSLA" target="_blank" title="TSLA">TSLA</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        299.30
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -6.42
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -2.10%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="SNAP" data-test-key="SNAP">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/SNAP" target="_blank" title="SNAP">SNAP</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        14.25
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -0.14
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -0.97%
+                                    </span>
+                            </td>
+                        </tr>
+                        <tr data-index="0" data-key="NVDA" data-test-key="NVDA">
+                            <td class="td-symbol home-td">
+                                    <span>
+                                        <a href="https://finance.yahoo.com/quote/NVDA" target="_blank" title="NVDA">NVDA</a>
+                                    </span>
+                            </td>
+                            <td class="td-lastprice home-td" style="font-weight: 700">
+                                    <span style="font-weight: 700">
+                                        214.25
+                                    </span>
+                            </td>
+                            <td class="td-change home-td">
+                                    <span>
+                                        -7.13
+                                    </span>
+                            </td>
+                            <td class="td-percentchange home-td">
+                                    <span>
+                                        -3.22%
+                                    </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </section>
+            </div>
+        </div>
+
+    </section>
+
+    </div>
+</body>
+</html>
