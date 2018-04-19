@@ -1,4 +1,4 @@
-#Yahoo Finance Project
+# Yahoo Finance Project
 ##### By [Tim Wheeler](https://timwheeler.com) / CareerDevs Intro 2018 - 3.a.e
 
 ### Quick Notes:
@@ -62,7 +62,7 @@ non Bootstrap Challenges
 
 ✔ Use Css to organize and shape the page.
 
-#####You should use the following css elements at some point:
+##### You should use the following css elements at some point:
 
 ✔ Padding
 
@@ -84,7 +84,7 @@ non Bootstrap Challenges
 
 ✔ font-weight
 
-##Additional challenge
+## Additional challenge
 Include an inactive form that does not submit information form should include minimum:
 
 ✔ 1 input element
