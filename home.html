@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Yahoo Finance - Business Finance, Stock Market, Quotes, News</title>
@@ -10,18 +11,15 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="icon" href="https://s.yimg.com/os/mit/media/p/common/images/favicon_new-7483e38.svg" sizes="any">
     <link rel="alternate icon" href="https://finance.yahoo.com/favicon.ico?bypass=true" type="image/x-icon">
-  
+
 </head>
-<div class="topbar">
 
-</div>
-
-<body class="body-section">
-<header class="main-header">
+<body>
+<header>
     <ul class="topbar">
         <li class="topbar-menu-item"><a href="#"><span class="header-mail-btn">
-                    <svg class="svg" width="16px" height="16px" viewBox="0 0 32 32" style="fill: white;">
-                        <path class="path" d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
+                    <svg width="16px" height="16px" viewBox="0 0 32 32" style="fill: white;">
+                        <path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
                     </svg>
                 </span>Home</a></li>
         <li class="topbar-menu-item">Mail</li>
@@ -40,12 +38,12 @@
     <section class="bottombar">
         <div class="header-left">
             <div class="header-logo">
-                <a class="link" href="/">
+                <a href="home.html">
                     <img class="logo" src="img/yahoo.svg" alt="">
                 </a>
             </div>
-            <form class="header-form" action="">
-                <div class="div">
+            <form class="header-form">
+                <div>
                     <div class="header-form-icon">
                         <input class="header-input" type="text" value autocomplete="off" placeholder="Search for news, symbols and companies">
                     </div>
@@ -54,18 +52,18 @@
             <button class="header-form-btn">Search</button>
         </div>
         <div class="header-right">
-                <span class="span">
+          <span>
                     <span class="header-user-btn">
                         <img class="header-profile-img" src="img/profile-img.jpg" alt="Profile Image">Tim
                     </span>
-                </span>
+          </span>
             <span class="header-alert-btn">
                     <svg class="svg" width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 35px">
-                        <path class="path" d="M294.2 428.05h-74.4c0 20.543 16.656 37.2 37.2 37.2 20.535 0 37.2-12.47 37.2-37.2zM136.1 195.55c0 62.284-53.51 94.162-55.728 95.452L71 296.352v94.498h372v-94.498l-9.373-5.35c-.562-.318-55.727-32.573-55.727-95.452 0-63.88-12.533-148.8-120.9-148.8-108.368 0-120.9 84.92-120.9 148.8z"></path>
+                        <path d="M294.2 428.05h-74.4c0 20.543 16.656 37.2 37.2 37.2 20.535 0 37.2-12.47 37.2-37.2zM136.1 195.55c0 62.284-53.51 94.162-55.728 95.452L71 296.352v94.498h372v-94.498l-9.373-5.35c-.562-.318-55.727-32.573-55.727-95.452 0-63.88-12.533-148.8-120.9-148.8-108.368 0-120.9 84.92-120.9 148.8z"></path>
                     </svg>
                 </span>
             <span class="header-mail-btn">
-                    <svg class="svg" width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 50px">
+                    <svg width="28px" height="28px" viewBox="0 0 512 512" style="fill: rgb(64, 0, 144); vertical-align: middle; margin-left: 50px">
                         <path d="M460.586 91.31H51.504c-10.738 0-19.46 8.72-19.46 19.477v40.088l224 104.03 224-104.03v-40.088c0-10.757-8.702-19.478-19.458-19.478M32.046 193.426V402.96c0 10.758 8.72 19.48 19.458 19.48h409.082c10.756 0 19.46-8.722 19.46-19.48V193.428l-224 102.327-224-102.327z"></path>
                     </svg>
                 </span>
@@ -86,8 +84,8 @@
     </ul>
 </header>
 <div class="market-summary">
-    <section class="section">
-        <div class="div" style="margin-bottom: 8px; padding-top: 12px; text-align: center; display: block;">
+    <section>
+        <div style="margin-bottom: 8px; padding-top: 12px; text-align: center; display: block;">
             <div class="div">
                 <div class="div">
 
@@ -95,9 +93,9 @@
             </div>
         </div>
         <p id="market-status"></p>
-        <div class="div">
-            <div class="div">
-                <section class="section">
+        <div>
+            <div>
+                <section>
                     <div class="stock-chart-section d-inline-block">
                         <ul class="d-inline-block">
                             <li id="stock-box-1" class="stock-box">
@@ -208,11 +206,11 @@
                     <div class="container-fluid">
                         <div class="row">
                             <!--<div class="col-md-8">-->
-                                <!--<img class="home-hero-img" src="img/ad-6.png" alt="">-->
+                            <!--<img class="home-hero-img" src="img/ad-6.png" alt="">-->
                             <!--</div>-->
                             <div class="col-md-12">
                                 <h1 class="welcome">Welcome Back, Tim!</h1>
-                            </div>       
+                            </div>
                             <div id="carousel" class="carousel slide col-md-8" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -247,286 +245,286 @@
                                         <col class="sidebar-col" style="width: 25%">
                                         <col class="sidebar-col" style="width: 25%">
                                     </colgroup>
+                                    <tbody style="margin-left: 30px;" class="table-body">
+                                    <tr data-index="0" data-key="GOOG" data-test-key="GOOG">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/GOOG" target="_blank" title="GOOG">GOOG</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        1,007.04
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -20.77
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -2.02%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="AMZN" data-test-key="AMZN">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/AMZN" target="_blank" title="AMZN">AMZN</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        1,405.23
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -46.52
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -3.20%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="AAPL" data-test-key="AAPL">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/AAPL" target="_blank" title="AAPL">AAPL</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        168.38
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -4.42
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -2.56%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="FB" data-test-key="FB">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/FB" target="_blank" title="FB">FB</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        157.20
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -2.14
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -1.34%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="IBM" data-test-key="IBM">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/IBM" target="_blank" title="IBM">IBM</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        150.57
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -2.14
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -1.34%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="NFLX" data-test-key="NFLX">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/NFLX" target="_blank" title="NFLX">NFLX</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        288.85
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -5.12
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -1.74%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="INTC" data-test-key="INTC">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/INTC" target="_blank" title="INTC">INTC</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        48.79
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -1.59
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -3.16%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="TWTR" data-test-key="TWTR">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/TWTR" target="_blank" title="TWTR">TWTR</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        28.10
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -0.54
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -1.89%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="MSFT" data-test-key="MSFT">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/MSFT" target="_blank" title="MSFT">MSFT</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        90.23
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -2.15
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -2.33%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="TSLA" data-test-key="TSLA">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/TSLA" target="_blank" title="TSLA">TSLA</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        299.30
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -6.42
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -2.10%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="SNAP" data-test-key="SNAP">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/SNAP" target="_blank" title="SNAP">SNAP</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        14.25
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -0.14
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -0.97%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr data-index="0" data-key="NVDA" data-test-key="NVDA">
+                                        <td class="td-symbol home-td">
+                            <span>
+                                        <a href="https://finance.yahoo.com/quote/NVDA" target="_blank" title="NVDA">NVDA</a>
+                                    </span>
+                                        </td>
+                                        <td class="td-lastprice home-td" style="font-weight: 700">
+                            <span style="font-weight: 700">
+                                        214.25
+                                    </span>
+                                        </td>
+                                        <td class="td-change home-td">
+                            <span>
+                                        -7.13
+                                    </span>
+                                        </td>
+                                        <td class="td-percentchange home-td">
+                            <span>
+                                        -3.22%
+                                    </span>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
-                    <tbody style="margin-left: 30px;" class="table-body">
-                        <tr data-index="0" data-key="GOOG" data-test-key="GOOG">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/GOOG" target="_blank" title="GOOG">GOOG</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        1,007.04
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -20.77
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -2.02%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="AMZN" data-test-key="AMZN">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/AMZN" target="_blank" title="AMZN">AMZN</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        1,405.23
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -46.52
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -3.20%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="AAPL" data-test-key="AAPL">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/AAPL" target="_blank" title="AAPL">AAPL</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        168.38
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -4.42
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -2.56%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="FB" data-test-key="FB">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/FB" target="_blank" title="FB">FB</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        157.20
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -2.14
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -1.34%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="IBM" data-test-key="IBM">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/IBM" target="_blank" title="IBM">IBM</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        150.57
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -2.14
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -1.34%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="NFLX" data-test-key="NFLX">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/NFLX" target="_blank" title="NFLX">NFLX</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        288.85
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -5.12
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -1.74%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="INTC" data-test-key="INTC">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/INTC" target="_blank" title="INTC">INTC</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        48.79
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -1.59
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -3.16%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="TWTR" data-test-key="TWTR">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/TWTR" target="_blank" title="TWTR">TWTR</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        28.10
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -0.54
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -1.89%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="MSFT" data-test-key="MSFT">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/MSFT" target="_blank" title="MSFT">MSFT</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        90.23
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -2.15
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -2.33%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="TSLA" data-test-key="TSLA">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/TSLA" target="_blank" title="TSLA">TSLA</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        299.30
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -6.42
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -2.10%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="SNAP" data-test-key="SNAP">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/SNAP" target="_blank" title="SNAP">SNAP</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        14.25
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -0.14
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -0.97%
-                                    </span>
-                            </td>
-                        </tr>
-                        <tr data-index="0" data-key="NVDA" data-test-key="NVDA">
-                            <td class="td-symbol home-td">
-                                    <span>
-                                        <a href="https://finance.yahoo.com/quote/NVDA" target="_blank" title="NVDA">NVDA</a>
-                                    </span>
-                            </td>
-                            <td class="td-lastprice home-td" style="font-weight: 700">
-                                    <span style="font-weight: 700">
-                                        214.25
-                                    </span>
-                            </td>
-                            <td class="td-change home-td">
-                                    <span>
-                                        -7.13
-                                    </span>
-                            </td>
-                            <td class="td-percentchange home-td">
-                                    <span>
-                                        -3.22%
-                                    </span>
-                            </td>
-                        </tr>
-                    </tbody>
                 </section>
             </div>
         </div>
-
     </section>
-
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 
 </html>
+

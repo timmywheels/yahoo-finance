@@ -669,7 +669,7 @@ canvas{
 }
 
 section.table-section:after{
-    box-shadow: 0 10px -9px -var(--gutterKb) #ececf5;
+    /*box-shadow: 0 10px -9px -var(--gutterKb) #ececf5;*/
     content: "";
     height: 100%;
     position: absolute;
